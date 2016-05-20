@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = "CCBufferedImageDecoder"
-  s.version          = "0.1.0"
+  s.version          = "1.0"
   s.summary          = "Download and decode progressive JPEGs easily."
   s.homepage         = "https://github.com/contentful-labs/Concorde/"
   s.social_media_url = 'https://twitter.com/contentful'
@@ -14,8 +14,6 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/contentful-labs/Concorde.git",
                      :tag => s.version.to_s }
   s.requires_arc = true
-
-  s.default_subspecs = 'Core'
 
   s.ios.deployment_target     = '8.0'
   s.ios.frameworks            = 'UIKit'
