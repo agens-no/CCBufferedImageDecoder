@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   }
 
   s.authors      = { "Boris Bügling" => "boris@buegling.com" }
-  s.source       = { :git => "https://github.com/contentful-labs/Concorde.git",
+  s.source       = { :git => "https://github.com/agens-no/CCBufferedImageDecoder.git",
                      :tag => s.version.to_s }
   s.requires_arc = true
 
